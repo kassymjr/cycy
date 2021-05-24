@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(61, 33, 87);
+}
+.container{
+    width: 100%;
+    height: 610px;
+    border: 2px solid black;
+}
+.containerA{
+    display: flex;
+}
+.element1{
+    width: 30%;
+    height: 180px;
+    border: 1px dashed black;
+    margin: 10px;
+    background: url("img.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 30%;
+    overflow: auto;
+}
+.element1 p{
+    color: red;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 5%;
+    text-decoration: blink;
+}
+.containerB{
+    display: flex;
+}
+.element{
+    width: 30%;
+    height: 180px;
+    border: 1px dashed black;
+    margin: 10px;
+    background: url("imag.jpg");
+    background-size: cover;
+}
+#element3{
+    background: blueviolet;
+    border-radius: 100%;
+}
+#element3 h1
+{
+    font-weight: bolder;
+    text-overflow: clip;
+    text-align: center;
+    text-decoration: blink;
+    margin-top: 55px;
+}
+
+.containerC{
+    display: flex;
+}
+.elementA{
+    width: 30%;
+    height: 180px;
+    border: 1px dashed black;
+    margin: 10px;
+    background: url("img.jpg");
+    background-size: cover;
+}
